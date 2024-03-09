@@ -1,0 +1,21 @@
+<idea-plugin>
+  <id>tokyo.northside.intellij.plugins.NyanProgressBar</id>
+  <name>Nyan Progress Bar</name>
+  <vendor email="miurahr@linux.com">Hiroshi Miura</vendor>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+  <applicationListeners>
+    <listener class="tokyo.northside.intellij.plugins.nyan.MyPopupWindow" topic="com.intellij.openapi.actionSystem.ex.AnActionListener"/>
+    <listener class="tokyo.northside.intellij.plugins.nyan.MyPopupWindow" topic="com.intellij.execution.ExecutionListener"/>
+    <listener class="tokyo.northside.intellij.plugins.nyan.MyPopupWindow" topic="com.intellij.task.ProjectTaskListener"/>
+    <listener class="tokyo.northside.intellij.plugins.nyan.NyanApplicationComponent" topic="com.intellij.ide.ui.LafManagerListener"/>
+    <listener class="tokyo.northside.intellij.plugins.nyan.NyanApplicationComponent" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+  </applicationListeners>
+</idea-plugin>
