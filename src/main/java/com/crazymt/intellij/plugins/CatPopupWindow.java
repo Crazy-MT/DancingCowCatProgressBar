@@ -1,4 +1,4 @@
-package tokyo.northside.intellij.plugins.nyan;
+package com.crazymt.intellij.plugins;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;

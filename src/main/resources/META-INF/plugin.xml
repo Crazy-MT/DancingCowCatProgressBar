@@ -1,5 +1,5 @@
 <idea-plugin>
-  <id>tokyo.northside.intellij.plugins.NyanProgressBar</id>
+  <id>com.crazymt.intellij.plugins.CatProgressBar</id>
   <name>Dancing Cow Cat Progress Bar</name>
   <vendor email="ytumaotong@gmail.com">Crazy-MT</vendor>
 
@@ -12,8 +12,8 @@
   </actions>
 
   <applicationListeners>
-    <listener class="tokyo.northside.intellij.plugins.nyan.CatPopupWindow" topic="com.intellij.openapi.actionSystem.ex.AnActionListener"/>
-    <listener class="tokyo.northside.intellij.plugins.nyan.CatApplicationComponent" topic="com.intellij.ide.ui.LafManagerListener"/>
-    <listener class="tokyo.northside.intellij.plugins.nyan.CatApplicationComponent" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+    <listener class="com.crazymt.intellij.plugins.CatPopupWindow" topic="com.intellij.openapi.actionSystem.ex.AnActionListener"/>
+    <listener class="com.crazymt.intellij.plugins.CatApplicationComponent" topic="com.intellij.ide.ui.LafManagerListener"/>
+    <listener class="com.crazymt.intellij.plugins.CatApplicationComponent" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
   </applicationListeners>
 </idea-plugin>

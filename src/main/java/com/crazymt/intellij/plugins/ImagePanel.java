@@ -1,4 +1,4 @@
-package tokyo.northside.intellij.plugins.nyan;
+package com.crazymt.intellij.plugins;
 
 import com.intellij.openapi.util.IconLoader;
 
@@ -6,7 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class ImagePanel extends JPanel {
-    private static final String PACKAGE_PATH = "/tokyo/northside/intellij/plugins/nyan/";
+    private static final String PACKAGE_PATH = "/com/crazymt/intellij/plugins/";
 
     private final ImageIcon GIF_ICON = new ImageIcon(getClass().getResource(PACKAGE_PATH + "cat_1.gif"));
 

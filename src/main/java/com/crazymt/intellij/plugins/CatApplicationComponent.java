@@ -1,4 +1,4 @@
-package tokyo.northside.intellij.plugins.nyan;
+package com.crazymt.intellij.plugins;
 
 import com.intellij.ide.ui.LafManager;
 import com.intellij.ide.ui.LafManagerListener;

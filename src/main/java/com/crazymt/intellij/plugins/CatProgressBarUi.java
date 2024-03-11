@@ -1,4 +1,4 @@
-package tokyo.northside.intellij.plugins.nyan;
+package com.crazymt.intellij.plugins;
 
 import com.intellij.openapi.ui.GraphicsConfig;
 import com.intellij.openapi.util.IconLoader;
@@ -29,7 +29,7 @@ import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
 
 public class CatProgressBarUi extends BasicProgressBarUI {
-    private static final String PACKAGE_PATH = "/tokyo/northside/intellij/plugins/nyan/";
+    private static final String PACKAGE_PATH = "/com/crazymt/intellij/plugins/";
 
     private final ImageIcon CAT_GIT = new ImageIcon(getClass().getResource(PACKAGE_PATH + "cat_7.gif"));
 
