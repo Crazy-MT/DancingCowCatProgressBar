@@ -8,8 +8,7 @@ import java.awt.*;
 public class ImagePanel extends JPanel {
     private static final String PACKAGE_PATH = "/tokyo/northside/intellij/plugins/nyan/";
 
-    private final ImageIcon GIF_ICON = (ImageIcon) IconLoader.getIcon(PACKAGE_PATH + "cat_1.gif",
-            getClass().getClassLoader());
+    private final ImageIcon GIF_ICON = new ImageIcon(getClass().getResource(PACKAGE_PATH + "cat_1.gif"));
 
     @Override
     protected void paintComponent(Graphics g) {

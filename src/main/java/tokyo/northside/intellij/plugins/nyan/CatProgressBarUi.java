@@ -31,8 +31,7 @@ import java.awt.geom.RoundRectangle2D;
 public class CatProgressBarUi extends BasicProgressBarUI {
     private static final String PACKAGE_PATH = "/tokyo/northside/intellij/plugins/nyan/";
 
-    private final ImageIcon CAT_GIT = (ImageIcon) IconLoader.getIcon(PACKAGE_PATH + "cat_7.gif",
-            getClass().getClassLoader());
+    private final ImageIcon CAT_GIT = new ImageIcon(getClass().getResource(PACKAGE_PATH + "cat_7.gif"));
 
     @SuppressWarnings({"MethodOverridesStaticMethodOfSuperclass", "UnusedDeclaration"})
     public static ComponentUI createUI(JComponent c) {
