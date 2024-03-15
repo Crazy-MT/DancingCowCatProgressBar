@@ -44,7 +44,7 @@ public class CatPopupWindow implements AnActionListener {
                 || action.getClass().getName().contains("MakeGradleProjectAction")
                 || action.getClass().getName().contains("RebuildGradleProjectAction")) {
 //            System.out.println("MTMTMT before:" + action + " " + action.getClass().getName());
-            showPopup();
+//            showPopup();
         }
     }
 
