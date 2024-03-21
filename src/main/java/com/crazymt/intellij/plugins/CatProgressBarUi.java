@@ -135,7 +135,7 @@ public class CatProgressBarUi extends BasicProgressBarUI {
 
         CAT_GIT.paintIcon(progressBar, g, offset2 - JBUI.scale(10), 0);
 
-        g.draw(new RoundRectangle2D.Float(1f, 1f, w - 2f - 1f, h - 2f -1f, R, R));
+        g.draw(new RoundRectangle2D.Float(2f, 1f, w - 2f - 2f, h - 2f -1f, R, R));
         g.translate(0, -(c.getHeight() - h) / 2);
 
         // Deal with possible text painting

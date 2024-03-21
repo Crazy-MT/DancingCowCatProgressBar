@@ -2,10 +2,14 @@
 
 # DancingCowCatProgressBar Changelog
 
+## [1.0.2]
+### Changed
 
-## [1.0.0]
+- fix: draw RoundRectangle.
+
+## [1.0.1]
 ### Changed
 
 - fix: support IntellJ 2023.3 or later.
 
-[1.0.0]: https://github.com/Crazy-MT/DancingCowCatProgressBar
+[1.0.1]: https://github.com/Crazy-MT/DancingCowCatProgressBar
