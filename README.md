@@ -1,3 +1,5 @@
+![Alt Text](img/1.jpg)
+
 # DancingCowCatProgressBar
 
 <!-- Plugin description -->
